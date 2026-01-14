@@ -20,12 +20,9 @@ sections:
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "I build"
+        prefix: "Welcome to"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "My Websites"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -51,7 +48,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: "Featured Projects"
+      title: "Projects"
       subtitle: "A selection of my recent work"
       count: 6
       filters:
@@ -60,12 +57,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
+        - name: Completed
+          tag: Completed
+        - name: Live
+          tag: Live
       default_button_index: 0
       # Archive link auto-shown if more projects exist than 'count' above
       # archive:
@@ -90,44 +85,13 @@ sections:
       categories:
         - name: Languages
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
             - name: Python
               icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
-          items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
-          items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
+            - name: Matlab
+              icon: devicon/matlab
             - name: PostgreSQL
               icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
-          items:
-            - name: Docker
-              icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices-wordmark
-            - name: GitHub Actions
-              icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+
     design:
       style: grid
       show_levels: false
@@ -143,44 +107,32 @@ sections:
     id: experience
     content:
       title: Experience
-      date_format: Jan 2006
+      date_format: 
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
+        - title: 
+          company: 
           company_url: ''
           company_logo: ''
-          location: San Francisco, CA
+          location: 
           date_start: '2023-01-01'
           date_end: ''
           description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
+        - title:
+          company: 
           company_url: ''
           company_logo: ''
-          location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
+          location: 
+          date_start: 
+          date_end: 
           description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
+        - title: 
+          company: 
           company_url: ''
           company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
+          location: 
+          date_start: 
+          date_end: 
           description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
     design:
       columns: '1'
       background:
@@ -213,6 +165,7 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
+  
   # Contact Section
   - block: contact-info
     id: contact
@@ -222,7 +175,7 @@ sections:
       text: |-
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+      email: li.jiangyao@outlook.com
       autolink: true
     design:
       columns: '1'
@@ -238,9 +191,7 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
-        
-        Let's connect and discuss how I can help your team.
+        Let's connect and discuss how I can work with your team.
       button:
         text: 'Download Resume'
         url: uploads/resume.pdf
